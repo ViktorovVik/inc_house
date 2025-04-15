@@ -1,0 +1,204 @@
+{
+   "filter": ["Франция", "Германия", "Англия"],
+   "products": [ {
+         "id": 1,
+         "image": "../assets/images/pictures/image1.webp",
+         "imageMini": "./assets/images/pictures/image1-mini.webp",
+         "imageTablet": "./assets/images/pictures/image1-tablet.webp",
+         "author": "Марсель Руссо",
+         "title": "Охота Амура",
+         "props": "Холст, масло (50х80)",
+         "price": 14500,
+         "country": "Франция"
+      },
+      {
+         "id": 2,
+         "image": "../assets/images/pictures/image2.webp",
+         "imageMini": "./assets/images/pictures/image2-mini.webp",
+         "imageTablet": "./assets/images/pictures/image2-tablet.webp",
+         "author": "Анри Селин",
+         "title": "Дама с собачкой",
+         "props": "Акрил, бумага (50х80)",
+         "price": 16500,
+         "country": "Франция"
+      },
+      {
+         "id": 3,
+         "image": "../assets/images/pictures/image3.webp",
+         "imageMini": "./assets/images/pictures/image3-mini.webp",
+         "imageTablet": "./assets/images/pictures/image3-tablet.webp",
+         "author": "Франсуа Дюпон",
+         "title": "Процедура",
+         "props": "Цветная литография (40х60)",
+         "price": 20000,
+         "country": "Франция"
+      },
+      {
+         "id": 4,
+         "image": "../assets/images/pictures/image4.webp",
+         "imageMini": "./assets/images/pictures/image4-mini.webp",
+         "imageTablet": "./assets/images/pictures/image4-tablet.webp",
+         "author": "Луи Детуш",
+         "title": "Роза",
+         "props": "Бумага, акрил (50х80) ",
+         "price": 12000,
+         "country": "Франция"
+      },
+      {
+         "id": 5,
+         "image": "../assets/images/pictures/image5.webp",
+         "imageMini": "./assets/images/pictures/image5-mini.webp",
+         "imageTablet": "./assets/images/pictures/image5-tablet.webp",
+         "author": "Франсуа Дюпон",
+         "title": "Птичья трапеза",
+         "props": "Цветная литография (40х60)",
+         "price": 22500,
+         "country": "Франция"
+      },
+      {
+         "id": 6,
+         "image": "../assets/images/pictures/image6.webp",
+         "imageMini": "./assets/images/pictures/image6-mini.webp",
+         "imageTablet": "./assets/images/pictures/image6-tablet.webp",
+         "author": "Пьер Моранж",
+         "title": "Пейзаж с рыбой",
+         "props": "Цветная литография (40х60)",
+         "price": 20000,
+         "country": "Франция"
+      },
+      {
+         "id": 7,
+         "image": "../assets/images/pictures/image7.webp",
+         "imageMini": "./assets/images/pictures/image7-mini.webp",
+         "imageTablet": "./assets/images/pictures/image7-tablet.webp",
+         "author": "Курт Вернер",
+         "title": "Над городом",
+         "props": "Цветная литография (40х60)",
+         "price": 16000,
+         "country": "Германия"
+      },
+      {
+         "id": 8,
+         "image": "../assets/images/pictures/image8.webp",
+         "imageMini": "./assets/images/pictures/image8-mini.webp",
+         "imageTablet": "./assets/images/pictures/image8-tablet.webp",
+         "author": "Макс Рихтер",
+         "title": "Птенцы",
+         "props": "Холст, масло (50х80)",
+         "price": 14500,
+         "country": "Германия"
+      },
+      {
+         "id": 9,
+         "image": "../assets/images/pictures/image9.webp",
+         "imageMini": "./assets/images/pictures/image9-mini.webp",
+         "imageTablet": "./assets/images/pictures/image9-tablet.webp",
+         "author": "Мартин Майер",
+         "title": "Среди листьев",
+         "props": "Цветная литография (40х60)",
+         "price": 20000,
+         "country": "Германия"
+      },
+      {
+         "id": 10,
+         "image": "../assets/images/pictures/image10.webp",
+         "imageMini": "./assets/images/pictures/image10-mini.webp",
+         "imageTablet": "./assets/images/pictures/image10-tablet.webp",
+         "author": "Герман Беккер",
+         "title": "Яркая птица",
+         "props": "Цветная литография (40х60)",
+         "price": 13000,
+         "country": "Германия"
+      },
+      {
+         "id": 11,
+         "image": "../assets/images/pictures/image11.webp",
+         "imageMini": "./assets/images/pictures/image11-mini.webp",
+         "imageTablet": "./assets/images/pictures/image11-tablet.webp",
+         "author": "Вульф Бауэр",
+         "title": "Дятлы",
+         "props": "Бумага, акрил (50х80) ",
+         "price": 20000,
+         "country": "Германия"
+      },
+      {
+         "id": 12,
+         "image": "../assets/images/pictures/image12.webp",
+         "imageMini": "./assets/images/pictures/image12-mini.webp",
+         "imageTablet": "./assets/images/pictures/image12-tablet.webp",
+         "author": "Вальтер Хартманн",
+         "title": "Большие воды",
+         "props": "Бумага, акрил (50х80) ",
+         "price": 23000,
+         "country": "Германия"
+      },
+      {
+         "id": 13,
+         "image": "../assets/images/pictures/image13.webp",
+         "imageMini": "./assets/images/pictures/image13-mini.webp",
+         "imageTablet": "./assets/images/pictures/image13-tablet.webp",
+         "author": "Пол Смит",
+         "title": "Дикий зверь",
+         "props": "Акварель, бумага (50х80)",
+         "price": 19500,
+         "country": "Англия"
+      },
+      {
+         "id": 14,
+         "image": "../assets/images/pictures/image14.webp",
+         "imageMini": "./assets/images/pictures/image14-mini.webp",
+         "imageTablet": "./assets/images/pictures/image14-tablet.webp",
+         "author": "Джон Уайт",
+         "title": "Скалистый берег",
+         "props": "Цветная литография (40х60)",
+         "price": 17500,
+         "country": "Англия"
+      },
+      {
+         "id": 15,
+         "image": "../assets/images/pictures/image15.webp",
+         "imageMini": "./assets/images/pictures/image15-mini.webp",
+         "imageTablet": "./assets/images/pictures/image15-tablet.webp",
+         "author": "Джим Уотсон",
+         "title": "Река и горы",
+         "props": "Акварель, бумага (50х80)",
+         "price": 20500,
+         "country": "Англия"
+      },
+      {
+         "id": 16,
+         "image": "../assets/images/pictures/image16.webp",
+         "imageMini": "./assets/images/pictures/image16-mini.webp",
+         "imageTablet": "./assets/images/pictures/image16-tablet.webp",
+         "author": "Юджин Зиллион",
+         "title": "Белый попугай",
+         "props": "Цветная литография (40х60)",
+         "price": 16500,
+         "country": "Англия"
+      },
+      {
+         "id": 17,
+         "image": "../assets/images/pictures/image17.webp",
+         "imageMini": "./assets/images/pictures/image17-mini.webp",
+         "imageTablet": "./assets/images/pictures/image17-tablet.webp",
+         "author": "Эрик Гиллман",
+         "title": "Ночная рыба",
+         "props": "Бумага, акрил (50х80)",
+         "price": 12500,
+         "country": "Англия"
+      },
+      {
+         "id": 18,
+         "image": "../assets/images/pictures/image18.webp",
+         "imageMini": "./assets/images/pictures/image18-mini.webp",
+         "imageTablet": "./assets/images/pictures/image18-tablet.webp",
+         "author": "Альфред Барр",
+         "title": "Рыжий кот",
+         "props": "Цветная литография (40х60)",
+         "price": 21000,
+         "country": "Англия"
+      }
+   ]
+}
+
+ 

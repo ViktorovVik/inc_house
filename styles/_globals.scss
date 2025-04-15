@@ -1,0 +1,136 @@
+@use './helpers' as *;
+*,
+::before,
+::after {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+
+html {
+   height: 100%;
+}
+
+html,
+:has(:target) {
+  scroll-behavior: smooth;
+}
+
+body {
+   font-family: var(--main-weight);
+   background-color: var(--color-light);
+   color: var(--color-dark);
+   font-weight: 500;
+   min-height: 100%;
+   font-size: 18px;
+
+   &.is-lock {
+      overflow: hidden
+   }  
+}
+
+.h1,
+.h2 {
+   line-height: 1.1;
+}
+
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+   font-weight: 500;
+   color: var(--color-dark);
+}
+
+
+.h1 {
+   font-size: 60px;
+
+   @include lg {
+      font-size: 40px;
+   }
+
+   @include mobile {
+      font-size: 36px;
+   }
+}
+
+.h2 {
+   font-size: clamp(1.5rem, 1.095rem + 2.03vw, 2.5rem);
+
+   &--light {
+      color: var(--color-light);
+   }
+}
+
+.h3 {
+   font-size: 20px;
+}
+
+a,
+button,
+label,
+input,
+textarea,
+select,
+svg * {
+   transition-duration: var(--transition-duration);
+}
+
+a {
+   color: inherit;
+   margin: 0;
+   padding: 0;
+
+  
+   &:hover {
+      color: var(--grey-color);
+   }
+   &[class] {
+      text-decoration: none;
+   }
+}
+
+:focus-visible {
+   outline: 2px dashed var(--color-light);
+   outline-offset: 4px;
+   transition-duration: 0s !important;
+}
+
+a, 
+button {
+   border: none;
+   background: transparent;
+   &[aria-label] {
+         position: relative;
+         &::before {
+
+            content: '';
+      }
+   }
+   
+}
+
+section {
+   scroll-margin-top: 100px;
+}
+
+img,
+ video {
+   display: block;
+   max-width: 100%;
+   height: auto;
+}
+
+ button,
+ label {
+   cursor: pointer;
+}
+
+ul {
+   list-style-type: none;
+}

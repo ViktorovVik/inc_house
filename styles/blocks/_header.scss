@@ -1,0 +1,128 @@
+@use '../helpers' as *;
+
+.header {
+   padding: 33px 0;
+   background-color: var(--color-bg);
+
+   @include mobile {
+      padding: 16px 0;
+   }
+
+   @include mobile-s {
+      background-color: var(--color-light);
+      padding-bottom: 20px;
+   }
+
+   &__inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      @include mobile {
+         flex-direction: column;
+      }
+
+      
+   }
+    
+   &__right {
+      position: relative;
+      display: flex;
+      align-items: center;
+
+      @include mobile {
+         padding-top: 16px;
+         justify-content: space-between;
+         border-top: var(--border);
+         width: 100%;
+      }
+
+
+      @include mobile-s {
+         &::after {
+            content: "";
+            position: absolute;
+            top: -1px;
+            left: -15px;
+            right: -15px;
+            height: 60px;
+            z-index: 0;
+            background-color: var(--color-bg);
+        }
+      }
+   }
+
+
+  
+   
+   &__nav {
+      margin-right: 60px;
+
+      @include mobile-s {
+        position: absolute;
+        left: -15px;
+        top: 0;
+        height: 100vh;
+        padding: 15px;
+        padding-top: 76px;
+        width: calc(100% + 30px);
+        background-color: var(--color-bg);
+        z-index: 9;
+        transform: translateX(-150%);
+        transition: transform 0.3s ease-in-out;
+      }
+
+      &.active {
+         transform: none;
+      }
+
+      &-list {
+         display: flex;
+         align-items: center;
+
+         @include mobile-s {
+            flex-direction: column;
+            align-items: flex-start;
+            row-gap: 40px;
+         }
+      }
+
+      &-item {
+         &:not(:last-child) {
+            margin-right: 60px;
+         }
+
+         @include mobile-s {
+           padding-bottom: 20px;
+           width: 100%;
+           border-bottom: var(--border);
+         }
+      }
+
+      &-link {
+         font-size: 20px;
+         @media(any-hover: hover) {
+            &:hover {
+               color: var(--accent-color);
+            }
+         }
+      }
+   }
+}
+
+.cart {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 4;
+   svg {
+      stroke: var(--color-dark);
+
+      &:hover {
+         stroke: var(--accent-color);
+      }
+   }
+}
+
+

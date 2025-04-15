@@ -1,0 +1,71 @@
+@use '../helpers' as *;
+
+.about {
+   padding: 70px 0;
+   background-color: var(--color-light);
+
+   @include mobile {
+      padding: 50px 0;
+   }
+
+   &__inner {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      align-items: center;
+      column-gap: 30px;
+
+      @include mobile {
+         padding: 0 39px;
+      }
+
+      @include mobile-s {
+         grid-template-columns: repeat(2, 1fr);
+         padding: 0 15px;
+      }
+   }
+   
+   &__img {
+      grid-column: 5 span;
+
+      @include mobile {
+         grid-column: 12 span;
+      }
+
+      @include mobile-s {
+         width: 100%;
+         grid-column: 2 span;
+      }
+   }
+
+   &__content {
+      margin-top: 50px;
+      grid-column: 7 span;
+
+      @include mobile {
+         padding-top: 35px;
+         margin: 0;
+         grid-column: 12 span;
+      }
+
+      @include mobile-s {
+         grid-column: 2 span;
+      }
+   }
+
+   &__title {
+      margin-bottom: 20px;
+   }
+   
+   &__desc {
+      margin-bottom: 20px;
+   }
+
+   &__team {
+      display: flex;
+      column-gap: 30px;
+
+      @include mobile {
+         column-gap: 25px;
+      }
+   }
+}

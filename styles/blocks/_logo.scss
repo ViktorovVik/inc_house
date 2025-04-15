@@ -1,0 +1,11 @@
+@use '../helpers' as *;
+
+.logo {
+   display: block;
+   width: auto;
+   height: 100%;
+
+   @include mobile {
+      padding-bottom: 16px;
+   }
+}

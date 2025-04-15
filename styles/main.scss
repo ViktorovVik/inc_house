@@ -1,0 +1,18 @@
+@use 'fonts';
+@use 'globals';
+@use 'utils';
+@use 'vars';
+@use 'normalize';
+@use 'blocks/logo';
+
+
+@use 'blocks/header';
+@use 'blocks/mobile-menu';
+@use 'blocks/button';
+@use 'blocks/hero';
+@use 'blocks/collection';
+@use 'blocks/product';
+@use 'blocks/new';
+@use 'blocks/about';
+@use 'blocks/soc1als';
+@use 'blocks/footer';

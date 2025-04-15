@@ -1,0 +1,56 @@
+@use '../helpers' as *;
+
+.new {
+   position: relative;
+   overflow: hidden;
+   padding-top: 66px;
+   padding-bottom: 73px;
+   background-image: url('../assets/images/collection/bg-img.webp');
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+
+   &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 50%;
+      background: rgba(13, 43, 67, 0.8);
+      mix-blend-mode: multiply;
+      filter: blur(315px);
+   }
+
+   @include mobile-s {
+      padding: 50px 0;
+   }
+
+   &__inner {
+      position: relative;
+      z-index: 10;
+   }
+   
+   &__title {
+      display: flex;
+      align-items: center;
+      column-gap: 20px;
+      max-width: 521px;
+      margin-bottom: 20px;
+   }
+   
+   &__desc {
+      margin-bottom: 60px;
+      max-width: 530px;
+      p {
+         color: var(--color-light);
+      }
+   }
+   
+   &__btn {
+      
+     @include mobile-s {
+      width: 100%;
+     }
+   }
+}

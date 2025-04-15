@@ -1,0 +1,32 @@
+@use '../helpers' as *;
+
+.btn {
+   display: inline-block;
+   font-size: 20px;
+   color: var(--accent-color);
+   border: 1px solid #598d66;
+   line-height: 1.2;
+   padding: 20px 63px;
+
+   @include mobile {
+      padding: 14px 41px;
+      font-size: 18px;
+   }
+
+   &:hover {
+      color: var(--color-light);
+      background-color: var(--accent-color);
+   }
+
+
+   &--yellow {
+      background-color: #eedb6d;
+      color: var(--color-dark);
+
+      &:hover {
+         background-color: #faeb97;
+         color: var(--color-dark);
+      }
+   }
+
+}

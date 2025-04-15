@@ -1,0 +1,138 @@
+@use '../helpers' as *;
+
+.footer {
+   padding: 23px 0;
+   background-color: var(--color-bg);
+
+   &__inner {
+      display: flex;
+
+      @include lg {
+         flex-direction: column;
+      }
+   }
+   
+   &__left {
+      margin-right: 115px;
+
+      @include lg {
+         display: flex;
+         justify-content: space-between;
+         margin-right: 0;
+         border-bottom: var(--border);
+      }
+
+      @include mobile-s {
+         flex-direction: column;
+         row-gap: 10px;
+         border-bottom: none;
+      }
+   }
+
+   &__logo {
+      margin-bottom: 35px;
+      height: unset;
+
+      @include mobile-s {
+         margin-bottom: 10px;
+         padding: 0;
+      }
+   }
+
+   &__right {
+      display: flex;
+      flex-grow: 1;
+
+      @include lg {
+         flex-direction: column;
+         padding-top: 20px;
+      }
+
+      @include mobile-s {
+         padding-top: 0;
+      }
+      
+   }
+
+   &__menu {
+      display: flex;
+      margin-right: auto;
+
+      @include lg {
+         justify-content: space-around;
+         margin: 0;
+         padding-bottom: 20px;
+         border-bottom: var(--border);
+      }
+
+      @include mobile-s {
+         flex-direction: column;
+         row-gap: 10px;
+      }
+   }
+
+   &__list {
+      
+      &:not(:last-child) {
+         margin-right: 60px;
+      }
+      
+   }
+
+   &__item {
+      
+      &:not(:last-child) {
+         margin-bottom: 6px;
+      }
+   }
+   
+   &__link {
+      color: var(--color-grey);
+   }
+
+   &__copyright {
+      padding-top: 11px;
+      padding-right: 29px;
+      font-size: 12px;
+      line-height: 1.2;
+      color: var(--color-grey);
+
+      @include lg {
+         display: flex;
+         text-align: center;
+         justify-content: center;
+         padding-right: 0;
+         
+      }
+
+      span {
+         display: block;
+         margin-top: 6px;
+
+         @include lg {
+            margin-top: 0;
+            padding-left: 5px;
+         }
+      }
+   }
+}
+
+
+
+
+
+
+
+
+.footer-contacts {
+
+   &__link {
+      font-size: 20px;
+      margin-bottom: 8px;
+   }
+
+   &__text {
+      display: block;
+      color: var(--color-grey);
+   }
+}
