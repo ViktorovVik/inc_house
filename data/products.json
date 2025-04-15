@@ -123,7 +123,7 @@
       },
       {
          "id": 12,
-         "image": "../assets/images/pictures/image12.webp",
+         "image": "./assets/images/pictures/image12.webp",
          "imageMini": "./assets/images/pictures/image12-mini.webp",
          "imageTablet": "./assets/images/pictures/image12-tablet.webp",
          "author": "Вальтер Хартманн",
