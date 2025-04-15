@@ -2,7 +2,7 @@
    "filter": ["Франция", "Германия", "Англия"],
    "products": [ {
          "id": 1,
-         "image": "../assets/images/pictures/image1.webp",
+         "image": "./assets/images/pictures/image1.webp",
          "imageMini": "./assets/images/pictures/image1-mini.webp",
          "imageTablet": "./assets/images/pictures/image1-tablet.webp",
          "author": "Марсель Руссо",
@@ -13,7 +13,7 @@
       },
       {
          "id": 2,
-         "image": "../assets/images/pictures/image2.webp",
+         "image": "./assets/images/pictures/image2.webp",
          "imageMini": "./assets/images/pictures/image2-mini.webp",
          "imageTablet": "./assets/images/pictures/image2-tablet.webp",
          "author": "Анри Селин",
@@ -24,7 +24,7 @@
       },
       {
          "id": 3,
-         "image": "../assets/images/pictures/image3.webp",
+         "image": "./assets/images/pictures/image3.webp",
          "imageMini": "./assets/images/pictures/image3-mini.webp",
          "imageTablet": "./assets/images/pictures/image3-tablet.webp",
          "author": "Франсуа Дюпон",
@@ -35,7 +35,7 @@
       },
       {
          "id": 4,
-         "image": "../assets/images/pictures/image4.webp",
+         "image": "./assets/images/pictures/image4.webp",
          "imageMini": "./assets/images/pictures/image4-mini.webp",
          "imageTablet": "./assets/images/pictures/image4-tablet.webp",
          "author": "Луи Детуш",
@@ -46,7 +46,7 @@
       },
       {
          "id": 5,
-         "image": "../assets/images/pictures/image5.webp",
+         "image": "./assets/images/pictures/image5.webp",
          "imageMini": "./assets/images/pictures/image5-mini.webp",
          "imageTablet": "./assets/images/pictures/image5-tablet.webp",
          "author": "Франсуа Дюпон",
@@ -57,7 +57,7 @@
       },
       {
          "id": 6,
-         "image": "../assets/images/pictures/image6.webp",
+         "image": "./assets/images/pictures/image6.webp",
          "imageMini": "./assets/images/pictures/image6-mini.webp",
          "imageTablet": "./assets/images/pictures/image6-tablet.webp",
          "author": "Пьер Моранж",
@@ -68,7 +68,7 @@
       },
       {
          "id": 7,
-         "image": "../assets/images/pictures/image7.webp",
+         "image": "./assets/images/pictures/image7.webp",
          "imageMini": "./assets/images/pictures/image7-mini.webp",
          "imageTablet": "./assets/images/pictures/image7-tablet.webp",
          "author": "Курт Вернер",
@@ -79,7 +79,7 @@
       },
       {
          "id": 8,
-         "image": "../assets/images/pictures/image8.webp",
+         "image": "./assets/images/pictures/image8.webp",
          "imageMini": "./assets/images/pictures/image8-mini.webp",
          "imageTablet": "./assets/images/pictures/image8-tablet.webp",
          "author": "Макс Рихтер",
@@ -90,7 +90,7 @@
       },
       {
          "id": 9,
-         "image": "../assets/images/pictures/image9.webp",
+         "image": "./assets/images/pictures/image9.webp",
          "imageMini": "./assets/images/pictures/image9-mini.webp",
          "imageTablet": "./assets/images/pictures/image9-tablet.webp",
          "author": "Мартин Майер",
@@ -101,7 +101,7 @@
       },
       {
          "id": 10,
-         "image": "../assets/images/pictures/image10.webp",
+         "image": "./assets/images/pictures/image10.webp",
          "imageMini": "./assets/images/pictures/image10-mini.webp",
          "imageTablet": "./assets/images/pictures/image10-tablet.webp",
          "author": "Герман Беккер",
@@ -112,7 +112,7 @@
       },
       {
          "id": 11,
-         "image": "../assets/images/pictures/image11.webp",
+         "image": "./assets/images/pictures/image11.webp",
          "imageMini": "./assets/images/pictures/image11-mini.webp",
          "imageTablet": "./assets/images/pictures/image11-tablet.webp",
          "author": "Вульф Бауэр",
@@ -134,7 +134,7 @@
       },
       {
          "id": 13,
-         "image": "../assets/images/pictures/image13.webp",
+         "image": "./assets/images/pictures/image13.webp",
          "imageMini": "./assets/images/pictures/image13-mini.webp",
          "imageTablet": "./assets/images/pictures/image13-tablet.webp",
          "author": "Пол Смит",
@@ -145,7 +145,7 @@
       },
       {
          "id": 14,
-         "image": "../assets/images/pictures/image14.webp",
+         "image": "./assets/images/pictures/image14.webp",
          "imageMini": "./assets/images/pictures/image14-mini.webp",
          "imageTablet": "./assets/images/pictures/image14-tablet.webp",
          "author": "Джон Уайт",
@@ -156,7 +156,7 @@
       },
       {
          "id": 15,
-         "image": "../assets/images/pictures/image15.webp",
+         "image": "./assets/images/pictures/image15.webp",
          "imageMini": "./assets/images/pictures/image15-mini.webp",
          "imageTablet": "./assets/images/pictures/image15-tablet.webp",
          "author": "Джим Уотсон",
@@ -167,7 +167,7 @@
       },
       {
          "id": 16,
-         "image": "../assets/images/pictures/image16.webp",
+         "image": "./assets/images/pictures/image16.webp",
          "imageMini": "./assets/images/pictures/image16-mini.webp",
          "imageTablet": "./assets/images/pictures/image16-tablet.webp",
          "author": "Юджин Зиллион",
@@ -178,7 +178,7 @@
       },
       {
          "id": 17,
-         "image": "../assets/images/pictures/image17.webp",
+         "image": "./assets/images/pictures/image17.webp",
          "imageMini": "./assets/images/pictures/image17-mini.webp",
          "imageTablet": "./assets/images/pictures/image17-tablet.webp",
          "author": "Эрик Гиллман",
@@ -189,7 +189,7 @@
       },
       {
          "id": 18,
-         "image": "../assets/images/pictures/image18.webp",
+         "image": "./assets/images/pictures/image18.webp",
          "imageMini": "./assets/images/pictures/image18-mini.webp",
          "imageTablet": "./assets/images/pictures/image18-tablet.webp",
          "author": "Альфред Барр",
